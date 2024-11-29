@@ -1,0 +1,30 @@
+{
+  "name": "quiz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.3.0",
+    "chart.js": "^4.4.6",
+    "pinia": "^2.2.8",
+    "reset-css": "^5.0.2",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.5.0",
+    "vue3-colorpicker": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass-embedded": "^1.81.0",
+    "typescript": "^5.5.3",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
